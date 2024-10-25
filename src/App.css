@@ -1,0 +1,16 @@
+:root{
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-background: #04152d;
+
+    --font-roboto: "Roboto";
+}
+
+
+.App{
+    background-color: var(--color-background);
+    width: 100%;
+    height: 100%;    
+}
