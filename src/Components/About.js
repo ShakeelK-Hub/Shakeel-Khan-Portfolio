@@ -1,55 +1,57 @@
-import React from 'react'
-import '../Components/About.css'
-import img1 from '../Assets/about/aboutImage.png'
-import img2 from '../Assets/about/cursorIcon.png'
-import img3 from '../Assets/about/serverIcon.png'
-import img4 from '../Assets/about/uiIcon.png'
+import React from 'react';
+import '../Components/About.css';
+import img1 from '../Assets/about/aboutImage.png';
+import img2 from '../Assets/about/cursorIcon.png';
+import img3 from '../Assets/about/serverIcon.png';
+import img4 from '../Assets/about/uiIcon.png';
 
 function About() {
   return (
-    <section className='container'id='about'>
+    <section className='about-container' id='about'>
 
-        <h2 className='title'>About</h2>
+      <h2 className='about-title'>About</h2>
 
-        <div className='content'>
-            
-            <img src={img1} alt='Shakeel in hero section' className='aboutimg'/>
+      <div className='about-content'>
+        <img src={img1} alt='Shakeel' className='about-img' />
 
-        <ul className='items'>
+        <ul className='about-items'>
 
-            <li className='aboutitems'>
-                <img src={img2} alt='cursor'/>
+          <li className='about-item'>
+            <img src={img2} alt='cursor' />
 
-                <div className='text'>
-                    <h3>Front End Developer</h3>
-                    <p>I am a front end Developer</p>
-                </div>
+            <div className='about-text'>
+              <h3>Front End Developer</h3>
+              <p>I am a front end Developer</p>
+            </div>
 
-            </li>
+          </li>
 
-            <li className='aboutitems'>
-                <img src={img3} alt='server'/>
+          <li className='about-item'>
+            <img src={img3} alt='server' />
 
-                <div className='text'>
-                    <h3>Backend Developer</h3>
-                    <p>I am a backend Developer</p>
-                </div>
+            <div className='about-text'>
+              <h3>Backend Developer</h3>
+              <p>I am a backend Developer</p>
+            </div>
 
-            </li>
+          </li>
 
-            <li className='aboutitems'>
-                <img src={img4} alt='User interface'/>
+          <li className='about-item'>
+            <img src={img4} alt='User interface' />
 
-                <div className='text'>
-                    <h3>UI Designer </h3>
-                    <p>I am a backend Developer</p>
-                </div>
-            </li>
+            <div className='about-text'>
+              <h3>UI Designer</h3>
+              <p>I am a backend Developer</p>
+            </div>
+
+          </li>
+
         </ul>
-        
-        </div>
+
+      </div>
+      
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
