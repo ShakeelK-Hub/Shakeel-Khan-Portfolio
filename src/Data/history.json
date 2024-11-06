@@ -1,0 +1,22 @@
+[
+    {
+        "role": "National Senior Certification",
+        "title": "High School",
+        "startDate": "Jan,2018",
+        "endDate": "Dec, 2023",
+        "experiences": [ "Completed coursework in mathematics, science, and computer studies"],
+        "imageSrc": "history/mhs.png"
+      },
+      
+    {
+      "role": "Software Developer",
+      "title": "Diploma IT",
+      "startDate": "Mar, 2023",
+      "endDate": "Present",
+      "experiences": ["Gained hands-on experience in web development, software engineering, and database management"],
+      "imageSrc": "history/bc.png"
+    }
+    
+  ]
+  
+  

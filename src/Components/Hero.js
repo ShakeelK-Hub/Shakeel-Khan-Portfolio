@@ -14,7 +14,7 @@ function Hero() {
         <h1 className='hero-title'>Hi, I’m Shakeel</h1>
 
         <p className='hero-description'>
-         Utilizing code to build visually stunning platforms.<br /><br />
+         Building Tomorrow's Solutions Today<br /><br />
          A passionate and dedicated student of software development. With a keen eye for detail and a drive for excellence, I am committed to crafting elegant and efficient code. My journey in software development is fueled by a love for problem-solving and a desire to create innovative solutions that make a difference.
           <br /><br />
          
