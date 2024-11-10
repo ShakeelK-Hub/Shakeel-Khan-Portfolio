@@ -9,7 +9,7 @@
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/Javascript.png"
+    "imageSrc": "skills/vecteezy_javascript-logo-png-javascript-icon-transparent-png_27127463.png"
   },
   {
     "title": "React",
@@ -26,7 +26,12 @@
   {
     "title": "C#",
     "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github_logo_icon_229278.png"
   }
+  
   
  
 ]

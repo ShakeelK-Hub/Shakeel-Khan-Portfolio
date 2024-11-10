@@ -49,10 +49,20 @@ function About() {
         <ul className='about-s'>
     <li className='about-ss' title='I create responsive, dynamic, and user-focused front-end experiences using HTML, CSS, JavaScript, and React.'>
         
-        <div className='about-intro'>
-            <h3 className='about-para'>SHAKEEL KHAN</h3>
-            <p>In my journey through software development, I have built a strong foundation in both theoretical concepts and practical application. My studies have focused on mastering core programming languages, such as C# and JavaScript, and exploring areas like web development, database management, and software engineering principles. Through hands-on projects, I’ve gained experience in the full software development lifecycle, from planning and designing to coding and testing. My academic work has also taught me to approach challenges logically and develop solutions that are both efficient and user-centered, skills that I’m eager to apply in real-world settings.</p>
-        </div>
+    <div className="about-intro">
+    <h3 className="about-para">SHAKEEL KHAN</h3>
+    <p className="about-paragraph">
+        My journey in software development has given me a solid grounding in both theoretical knowledge and hands-on application. I’ve focused my studies on key programming languages like C# and JavaScript and have explored critical areas such as web development, database management, and software engineering principles.
+    </p>
+    <p className="about-paragraph">
+        Through practical projects, I’ve gained experience in each stage of the software development lifecycle—from planning and design to coding and testing. This hands-on work has taught me to approach challenges logically and to create solutions that are both efficient and user-centered.
+    </p>
+    <p className="about-paragraph">
+        I am excited to bring these skills to real-world projects, where I can continue to grow and contribute as a developer.
+    </p>
+</div>
+
+
     </li>
     </ul>
 
