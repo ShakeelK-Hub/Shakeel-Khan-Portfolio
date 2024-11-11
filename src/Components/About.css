@@ -132,6 +132,17 @@
     margin-bottom: 20px;
 }
 
+.span1{
+    display: block;              
+    font-size: 0.95rem;           
+    color: #ffffff;                 
+    margin-top: 8px;              
+    line-height: 1.5;             
+    font-weight: 300;
+    text-wrap:balance;
+    text-align: center; 
+}
+
 
 @media screen and (max-width: 830px) {
     .about-container {

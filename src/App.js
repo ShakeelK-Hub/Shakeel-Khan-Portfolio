@@ -1,9 +1,10 @@
 
 import './App.css';
+import Navbar from './Components/Navbar';
+import Hero from './Components/Hero';
 import About from './Components/About';
 import Experience from './Components/Experience';
-import Hero from './Components/Hero';
-import Navbar from './Components/Navbar';
+import Projects from './Components/Projects';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <About/>
       <Experience/>
+      <Projects/>
       
       
 

@@ -2,13 +2,22 @@ import React from 'react'
 import '../Components/Experience.css'
 import skills from '../Data/skills.json'
 import history from '../Data/history.json'
-import { FaBriefcase, FaLaptopCode, FaUniversity } from 'react-icons/fa';	
+	
 
 
 const getImageUrl = (imagePath) => {
   return require(`../Assets/${imagePath}`);
 };
+
+
+
+
 function Experience() {
+
+  function ImageOnClick(link) {
+  window.open(link, "_blank", "noopener,noreferrer")
+  }
+
 
   return (
 
@@ -43,7 +52,9 @@ function Experience() {
             history.map((historyItem,id) => {
 
               return <li key={id} className='history-item'>
-                <img src={getImageUrl(historyItem.imageSrc)} alt= {historyItem.title}/>
+                
+                <img src={getImageUrl(historyItem.imageSrc)} alt= {historyItem.title} onClick={() => ImageOnClick(historyItem.link)}
+                style={{ cursor: 'pointer' }} />
 
                 <div className='history-item-details'>
 

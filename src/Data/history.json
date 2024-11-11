@@ -2,19 +2,21 @@
     {
         "role": "NSC",
         "title": "High School",
-        "startDate": "Jan,2018",
+        "startDate": "Jan, 2018",
         "endDate": "Dec, 2023",
         "experiences": [ "Mathematics", "Science", "Computer Literature"],
-        "imageSrc": "history/Screenshot 2024-11-10 181207.png"
+        "imageSrc": "history/Screenshot 2024-11-10 181207.png",
+        "link": "https://midhigh.co.za/"
       },
       
     {
       "role": "DiP IT",
-      "title": "Belgium Campus iTversity",
+      "title": "Belgium iTversity",
       "startDate": "Mar, 2023",
       "endDate": "Present",
-      "experiences": ["Web Wevelopment", "Software Engineering", "Database Management"],
-      "imageSrc": "history/bc.png"
+      "experiences": ["Web Development", "Software Engineering", "Database Management"],
+      "imageSrc": "history/bc.png",
+      "link": "https://www.belgiumcampus.ac.za/"
     }
     
   ]

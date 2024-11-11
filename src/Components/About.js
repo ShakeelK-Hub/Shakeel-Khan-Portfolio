@@ -18,7 +18,7 @@ function About() {
         <img src={img2} alt='cursor' /> 
         <div className='about-text'>
             <h3 className='about-item-title'>Front End Developer</h3>
-            <p>I am a front end Developer</p>
+            <span className='span1'>Combining creativity with functionality for impactful user experiences.</span>
         </div>
     </li>
 
@@ -26,7 +26,7 @@ function About() {
         <img src={img3} alt='server' />
         <div className='about-text'>
             <h3 className='about-item-title'>Backend Developer</h3>
-            <p>I am a backend Developer</p>
+            <span className='span1'>Ensuring efficient, secure, and robust backend operations.</span>
         </div>
     </li>
 
@@ -34,7 +34,7 @@ function About() {
         <img src={img4} alt='User interface' />
         <div className='about-text'>
             <h3 className='about-item-title'>UI Designer</h3>
-            <p>I am a UI Designer</p>
+            <span className='span1'>Transforming ideas into engaging and functional interfaces.</span>
         </div>
     </li>
 </ul>
