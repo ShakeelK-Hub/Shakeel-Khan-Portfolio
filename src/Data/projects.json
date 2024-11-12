@@ -1,11 +1,11 @@
 [
     {
-      "title": "Project A",
+      "title": "Recipe Website",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A simple recipe website used to enhance basleine understanding of the languages involved.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://belgium-kitchen.netlify.app/project",
+      "source": "https://github.com/ShakeelK-Hub/Recipe-Website.git"
     },
     {
       "title": "Project B",
@@ -17,6 +17,14 @@
     },
     {
       "title": "Project C",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
