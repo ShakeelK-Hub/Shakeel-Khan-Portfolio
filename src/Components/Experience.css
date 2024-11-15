@@ -57,10 +57,30 @@
     height: 120px;
 }
 
-.skill-image img{
+.skill-image img {
     width: 75px;
-    
+    transition: box-shadow 0.3s ease;
 }
+
+.skill-image:hover img {
+    
+    animation: pulse 1.2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
 
 .skil p{
     font-size: 25px;

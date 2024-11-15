@@ -1,0 +1,144 @@
+:root {
+    --color-text: #ffffff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-background: #04152d;
+    --font-roboto: "Roboto", sans-serif;
+}
+
+.container{
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px 10%;
+    gap: 10px;
+
+}
+
+@keyframes elegantEntrance {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes elegantHover {
+    0% {
+        letter-spacing: 4px;
+        text-shadow: 0 0 5px var(--color-primary);
+    }
+    100% {
+        letter-spacing: 6px;
+        text-shadow: 0 0 10px var(--color-secondary);
+    }
+}
+
+.text h2 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 3px 2px 5px var(--color-primary);
+    animation: elegantEntrance 1.2s ease-in-out;
+    transition: letter-spacing 0.3s ease, text-shadow 0.3s ease;
+}
+
+.text h2:hover {
+    animation: elegantHover 0.5s ease-in-out forwards;
+}
+
+
+
+.text p {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.5;    
+    margin: 20px 0; 
+    text-shadow: 2px 2px 5px var(--color-primary);
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 26px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icon {
+    color: #96bbff;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.icon:hover {
+    color: lemonchiffon;
+    transform: scale(1.25);
+}
+
+
+.link a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width:830px) {
+    .container{
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links{
+        align-items: center;
+    }
+
+    @keyframes gradientShine {
+        0% {
+            background-position: 0%;
+        }
+        100% {
+            background-position: 200%;
+        }
+    }
+    
+    .text h2 {
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-dark));
+        background-size: 200%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradientShine 3s linear infinite;
+    }
+    
+    
+}
+

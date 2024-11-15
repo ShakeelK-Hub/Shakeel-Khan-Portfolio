@@ -17,7 +17,7 @@
     padding: 18px 24px;
     max-width: 345px;
     transition: transform 0.5s ease, box-shadow 0.3s ease, background 0.3s ease;
-    margin: 15px;
+    margin: px;
 }
 .container1:hover{
     background-size: 100% 100%;
@@ -73,7 +73,7 @@
     justify-content: space-around;
 }
 
-.link1{
+.link1, button.link1 {
     text-decoration: none;
     color: var(--color-text);
     font-size: 30px;
@@ -92,7 +92,10 @@
     box-sizing: border-box; 
 }
 
-.link1:hover{
+.link1:hover, button.link1:hover{
     background-size: 100% 100%;
     transform: translateY(-5px);
 }
+
+
+  

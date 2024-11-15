@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Project/Projects.css'
 import projects from '../../Data/projects.json'
-import ProjectCard from '../Project/ProjectCard'
 import ProjectList from './ProjectList'
 
 
@@ -9,7 +8,7 @@ import ProjectList from './ProjectList'
 
 function Projects() {
   return (
-    <section className='container'>
+    <section id='projects'>
       
       <h2 className='title'>Projects</h2>
 

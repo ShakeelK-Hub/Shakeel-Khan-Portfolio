@@ -5,6 +5,7 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import Experience from './Components/Experience';
 import Projects from './Components/Project/Projects';
+import Contact from './Components/Contact';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Experience/>
       <Projects/>
+      <Contact/>
       
       
 

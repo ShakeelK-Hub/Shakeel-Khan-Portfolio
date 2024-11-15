@@ -1,34 +1,59 @@
 [
     {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/project.png",
+    "description": "A curated illustration and portrayal of skills and expertise  based on the languages involved.",
+    "skills": ["React", "JSX", "CSS", "JavaScript"],
+    "demo": "https://shakeelkhan-portfolio.netlify.app",
+    "source": "https://github.com/ShakeelK-Hub/To-Do-App.git"
+    },    
+    {
+      "title": "To-Do App",
+      "imageSrc": "projects/project.png",
+      "description": "An efficient & simple app created to enhance basleine understanding of the languages involved.",
+      "skills": ["React", "JSX", "CSS", "JavaScript"],
+      "demo": "https://s-to-do-list-app.netlify.app/",
+      "source": "https://github.com/ShakeelK-Hub/To-Do-App.git"
+      },
+    {
       "title": "Recipe Website",
       "imageSrc": "projects/project.png",
-      "description": "A simple recipe website used to enhance basleine understanding of the languages involved.",
+      "description": "A modern recipe website created to enhance basleine understanding of the languages involved.",
       "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://belgium-kitchen.netlify.app/project",
       "source": "https://github.com/ShakeelK-Hub/Recipe-Website.git"
     },
     {
-      "title": "Project B",
+      "title": "Stop Watch",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A stop watch website created to enhance basleine understanding of the languages involved.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://digital-stop-watch-24.netlify.app/",
+      "source": "https://github.com/ShakeelK-Hub/Stop-Watch.git"
     },
     {
-      "title": "Project C",
+      "title": "Banking App",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "An innovative and UI friendly banking app created to enhance basleine understanding of the language involved.",
+      "skills": ["C#"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/ShakeelK-Hub/Banking-App.git"
     },
     {
-      "title": "Project D",
+      "title": "Figma Portfolio Design",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A unique design template created to enhance basleine understanding of the design tool involved.",
+      "skills": ["Figma"],
+      "demo": "https://www.figma.com/design/lHKCIXgehECWoVtlEUMJDD/Shakeel-Khan-Portfolio-Design-Template?node-id=0-1&t=OrGZqRTAOn6gGVnO-1",
+      "source": "https://github.com/ShakeelK-Hub/Figma-Portfolio-Design.git"
+    },
+
+    {
+      "title": "Elf Run Game",
+      "imageSrc": "projects/project.png",
+      "description": "A fun and nostalgic game created to enhance basleine understanding of the programming languages involved.",
+      "skills": ["Scratch", "C#"],
+      "demo": "https://sites.google.com/view/elf-run/home",
+      "source": "https://github.com/ShakeelK-Hub/Elf-Run.git"
     }
   ]
