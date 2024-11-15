@@ -82,7 +82,7 @@
 }
 
 .icon {
-    color: #96bbff;
+    color: var(--color-background);
     font-size: 30px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -134,6 +134,7 @@
         letter-spacing: 4px;
         background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-dark));
         background-size: 200%;
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: gradientShine 3s linear infinite;

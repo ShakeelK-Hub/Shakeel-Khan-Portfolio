@@ -23,12 +23,17 @@ function ProjectList({ projects = [] }) {
     };
 
     useEffect(() => {
-        if (scrollRef.current) {
-            scrollRef.current.addEventListener('scroll', checkScrollPosition);
-            return () => {
-                scrollRef.current.removeEventListener('scroll', checkScrollPosition);
-            };
+        const currentScrollRef = scrollRef.current;
+
+        if (currentScrollRef) {
+            currentScrollRef.addEventListener('scroll', checkScrollPosition);
         }
+
+        return () => {
+            if (currentScrollRef) {
+                currentScrollRef.removeEventListener('scroll', checkScrollPosition);
+            }
+        };
     }, []);
 
     return (
@@ -53,6 +58,7 @@ function ProjectList({ projects = [] }) {
 }
 
 export default ProjectList;
+
 
 
 
