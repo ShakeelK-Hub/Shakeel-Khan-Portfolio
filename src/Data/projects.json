@@ -4,7 +4,7 @@
     "imageSrc": "projects/project.png",
     "description": "A curated illustration and portrayal of skills and expertise  based on the languages involved.",
     "skills": ["React", "JSX", "CSS", "JavaScript"],
-    "demo": "https://shakeelkhan-portfolio.netlify.app",
+    "demo": "https://shakeelkhanportwebsite.netlify.app/",
     "source": "https://github.com/ShakeelK-Hub/To-Do-App.git"
     },    
     {
