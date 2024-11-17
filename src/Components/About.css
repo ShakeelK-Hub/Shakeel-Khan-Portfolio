@@ -103,12 +103,12 @@
     margin-bottom: 40px;
     line-height: 1.8;
     text-align: justify;
+    hyphens: auto;
     padding: 30px;
     border-radius: 15px;
     max-width: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .about-para {
     margin-bottom: 25px;
@@ -190,5 +190,9 @@
     .about-items {
         grid-template-columns: 1fr; 
         gap: 20px;
-}
+    }
+
+    .about-intro {
+        hyphens: auto;        
+    }
 }

@@ -23,6 +23,19 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    animation: colorShift 4s infinite; 
+}
+
+@keyframes colorShift {
+    0% {
+        color: var(--color-text);
+    }
+    50% {
+        color: lemonchiffon; 
+    }
+    100% {
+        color: var(--color-text);
+    }
 }
 
 .menu {

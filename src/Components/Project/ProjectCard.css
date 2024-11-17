@@ -42,8 +42,8 @@
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
-    text-align: justify;
     margin-bottom: 7px;
+    hyphens: auto;
 }
 
 .skills1{

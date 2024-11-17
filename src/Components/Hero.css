@@ -93,6 +93,7 @@
     opacity: 0;
     animation: fadeIn 1.4s ease-out forwards;
     text-align: justify;
+    hyphens: auto;    
 }
 
 .hero-button-container {
@@ -184,6 +185,7 @@
     .hero-container {
         flex-direction: column-reverse;
         padding: 30px;
+        
     }
     .hero-content {
         align-items: center;
